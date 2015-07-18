@@ -1,5 +1,5 @@
-AddIntent what is {1|Num1} plus {2|Num2}
-AddIntent how much is {3|Num1} plus {4|Num2}
+AddIntent what is {one | Num1} plus {two | Num2}
+AddIntent how much is {three | Num1} plus {four | Num2}
 
 HelpIntent help
 HelpIntent help me
