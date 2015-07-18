@@ -1,0 +1,6 @@
+AddIntent what is {1|Num1} plus {2|Num2}
+AddIntent how much is {3|Num1} plus {4|Num2}
+
+HelpIntent help
+HelpIntent help me
+HelpIntent get help
