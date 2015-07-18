@@ -1,66 +1,56 @@
-// Alexa SDK for JavaScript v1.0.00
-// Copyright (c) 2014-2015 Amazon.com, Inc. or its affiliates. All Rights Reserved. Use is subject to license terms.
 
 /**
- * This sample shows how to create a Lambda function for handling Alexa Skill requests that:
- *
- * - LITERAL slot: demonstrates literal handling for a finite set of known values
+ * This is a simple calculator that right now only adds two numbers. 
  *
  * Examples:
  * One-shot model:
- *  User: "Alexa, ask Minecraft Helper how to make paper."
- *  Alexa: "(reads back recipe for paper)"
+ *  User: "Alexa, ask Calculator what is two plus two."
+ *  Alexa: "Two plus two equals four"
  */
 
 'use strict';
 
-var AlexaSkill = require('./AlexaSkill'),
-    recipes = require('./recipes');
+var AlexaSkill = require('./AlexaSkill');
 
 var APP_ID = undefined; //replace with 'amzn1.echo-sdk-ams.app.[your-unique-value-here]';
 
 /**
- * MinecraftHelper is a child of AlexaSkill.
- * To read more about inheritance in JavaScript, see the link below.
- *
- * @see https://developer.mozilla.org/en-US/docs/Web/JavaScript/Introduction_to_Object-Oriented_JavaScript#Inheritance
+ * Calculator is a child of AlexaSkill.
  */
-var MinecraftHelper = function () {
+var Calculator = function () {
     AlexaSkill.call(this, APP_ID);
 };
 
 // Extend AlexaSkill
-MinecraftHelper.prototype = Object.create(AlexaSkill.prototype);
-MinecraftHelper.prototype.constructor = MinecraftHelper;
+Calculator.prototype = Object.create(AlexaSkill.prototype);
+Calculator.prototype.constructor = Calculator;
 
-MinecraftHelper.prototype.eventHandlers.onLaunch = function (launchRequest, session, response) {
-    var speechOutput = "Welcome to the Minecraft Helper. You can ask a question like, what's the recipe for a chest? ... Now, what can I help you with.";
+Calculator.prototype.eventHandlers.onLaunch = function (launchRequest, session, response) {
+    var speechOutput = "Welcome to a simple calculator.";
     // If the user either does not reply to the welcome message or says something that is not
     // understood, they will be prompted again with this text.
     var repromptText = "For instructions on what you can say, please say help me.";
     response.ask(speechOutput, repromptText);
 };
 
-MinecraftHelper.prototype.intentHandlers = {
-    RecipeIntent: function (intent, session, response) {
-        var itemName = intent.slots.Item.value.toLowerCase();
-        var cardTitle = "Recipe for " + itemName;
-        var recipe = recipes[itemName];
-        if (recipe) {
-            response.tellWithCard(recipe, cardTitle, recipe);
+Calculator.prototype.intentHandlers = {
+    AddIntent: function (intent, session, response) {
+        var num1 = Number(intent.slots.NumOne.value);
+        var num2 = Number(intent.slots.NumTwo.value);
+        if ((num1) && (num2)) {
+            response.ask(num1 + " plus " + num2 + " equals " + (num1 + num2));
         } else {
-            response.ask("I'm sorry, I currently do not know the recipe for " + itemName + ". What else can I help?");
+            response.ask("I'm sorry, I could not add those numbers together.");
         }
     },
     HelpIntent: function (intent, session, response) {
-        var cardTitle = intent.name;
-        var speechOutput = "You can ask questions about minecraft such as, what's the recipe for a chest, or, you can say exit... Now, what can I help you with?";
-        var repromptText = "You can say things like, what's the recipe for a chest, or you can say exit... Now, what can I help you with?";
+        var speechOutput = "Welcome to a simple calculator.";
+        var repromptText = "You can say things like, what's two plus two ... Now, what can I help you with?";
         response.ask(speechOutput, repromptText);
     }
 };
 
 exports.handler = function (event, context) {
-    var minecraftHelper = new MinecraftHelper();
-    minecraftHelper.execute(event, context);
+    var calc = new Calculator();
+    calc.execute(event, context);
 };
