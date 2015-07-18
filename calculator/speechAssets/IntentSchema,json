@@ -4,11 +4,11 @@
       "intent": "AddIntent",
       "slots": [
         {
-          "name": "Num1",
+          "name": "NumOne",
           "type": "NUMBER"
         },
         {
-          "name": "Num2",
+          "name": "NumTwo",
           "type": "NUMBER"
         }
       ]
