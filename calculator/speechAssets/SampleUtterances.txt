@@ -1,6 +1,6 @@
 AddIntent what is {one | Num1} plus {two | Num2}
 AddIntent what's {three | Num1} plus {four | Num2}
-AddIntent how much is {five | Num1} plus {six | Num2}
+AddIntent how much is {fifty | Num1} plus {one hundred | Num2}
 
 HelpIntent help
 HelpIntent help me
