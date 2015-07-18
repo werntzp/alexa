@@ -1,0 +1,21 @@
+{
+  "intents": [
+    {
+      "intent": "AddIntent",
+      "slots": [
+        {
+          "name": "Num1",
+          "type": "NUMBER"
+        },
+        {
+          "name": "Num2",
+          "type": "NUMBER"
+        }
+      ]
+    },
+    {
+      "intent": "HelpIntent",
+      "slots": []
+    }
+  ]
+}
