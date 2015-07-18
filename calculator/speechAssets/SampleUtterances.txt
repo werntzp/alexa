@@ -1,6 +1,15 @@
-AddIntent what is {one | Num1} plus {two | Num2}
-AddIntent what's {three | Num1} plus {four | Num2}
-AddIntent how much is {fifty | Num1} plus {one hundred | Num2}
+AddIntent what is {one | NumOne} plus {two | NumTwo}
+AddIntent what is {twenty five | NumOne} plus {thirty | NumTwo}
+AddIntent what is {seventeen | NumOne} plus {ninety one | NumTwo}
+AddIntent what is {two hundred | NumOne} plus {one thousand | NumTwo}
+AddIntent what's {one | NumOne} plus {two | NumTwo}
+AddIntent what's {twenty five | NumOne} plus {thirty | NumTwo}
+AddIntent what's {seventeen | NumOne} plus {ninety one | NumTwo}
+AddIntent what's {two hundred | NumOne} plus {one thousand | NumTwo}
+AddIntent how much is {one | NumOne} plus {two | NumTwo}
+AddIntent how much is {twenty five | NumOne} plus {thirty | NumTwo}
+AddIntent how much is {seventeen | NumOne} plus {ninety one | NumTwo}
+AddIntent how much is {two hundred | NumOne} plus {one thousand | NumTwo}
 
 HelpIntent help
 HelpIntent help me
