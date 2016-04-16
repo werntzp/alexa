@@ -52,7 +52,11 @@ Chalkboard.prototype.intentHandlers = {
     "GagIntent": function (intent, session, response) {
       // pick a random number and pull a line out of the array
       var gagID = Math.floor(Math.random() * GAG_LIST.length);
-      var speechOutput = GAG_LIST[gagID]
+      var speechText = GAG_LIST[gagID];
+      var speechOutput = {
+                speech: speechText,
+                type: AlexaSkill.speechOutputType.SSML
+            };
       response.ask(speechOutput);
     },
     "HelpIntent": function (intent, session, response) {
