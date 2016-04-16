@@ -7,6 +7,22 @@
  *  Alexa: "I won't waste chalk, Episode 1, Bart the Genius"
  */
 
+/**
+ * Array containing gags.
+ */
+var GAG_LIST = [
+    "I will not waste chalk <break time=\"0.3s\" /> Season 1, Bart the Genius",
+    "I will not skateboard in the halls  <break time=\"0.3s\" />  Episode 1, Homer's Odyssey",
+    "I will not burp in class <break time=\"0.3s\" /> Season 1, There's No Disgrace Like Home",
+    "I will not instigate revolution <break time=\"0.3s\" /> Season 1, Moaning Lisa",
+    "I will not draw naked ladies in class <break time=\"0.3s\" /> Season 1, Call of the Simpsons",
+    "I did not see Elvis <break time=\"0.3s\" /> Season 1, The Telltale Head",
+    "I will not call my teacher hot cakes <break time=\"0.3s\" /> Season 1, Homer's Night Out",
+    "Garlic gum is not funny <break time=\"0.3s\" /> Season 1, The Crepes of Wrath",
+    "They are laughing at me, not with me <break time=\"0.3s\" /> Season 1, Krusty Gets Busted",
+    "I will not yell fire in a crowded classroom <break time=\"0.3s\" /> Season 1, Some Enchanted Evening"
+];
+
 'use strict';
 
 var AlexaSkill = require('./AlexaSkill');
@@ -33,10 +49,13 @@ Chalkboard.prototype.eventHandlers.onLaunch = function (launchRequest, session, 
 };
 
 Chalkboard.prototype.intentHandlers = {
-    GagIntent: function (intent, session, response) {
+    "GagIntent": function (intent, session, response) {
       // pick a random number and pull a line out of the array
+      var gagID = Math.floor(Math.random() * GAG_LIST.length);
+      var speechOutput = GAG_LIST[gagID]
+      response.ask(speechOutput);
     },
-    HelpIntent: function (intent, session, response) {
+    "HelpIntent": function (intent, session, response) {
         var speechOutput = "Welcome to the Simspons Chalkboard gag skill.";
         var repromptText = "You can say things like, get me a gag ... Now, what can I help you with?";
         response.ask(speechOutput, repromptText);
@@ -44,6 +63,6 @@ Chalkboard.prototype.intentHandlers = {
 };
 
 exports.handler = function (event, context) {
-    var calc = new Calculator();
-    calc.execute(event, context);
+    var cb = new Chalkboard();
+    cb.execute(event, context);
 };
