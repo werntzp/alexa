@@ -98,7 +98,12 @@ var GAG_LIST = [
     "I will not re-transmit without the express permission of Major League Baseball, Season 5, Lady Bouvier\'s Lover",
     "Five days is not too long to wait for a gun, Season 5, Secrets of a Successful Marriage",
     "Beans are neither a fruit nor musical, Season 6, Bart of Darkness",
-    "No one is interested in my underpants , Season 6, Lisa\'s Rival"
+    "No one is interested in my underpants , Season 6, Lisa\'s Rival",
+    "I will not use abbrev., Season 6, Another Simpsons Clip Show",
+    "I am not the reincarnation of Sammy Davis Jr., Season 6, Itchy and Scratchy Land",
+    "I will not send lard through the mail, Season 6, Bart\'s Girlfriend",
+    "I will not dissect things unless instructed, Season 6, Lisa on the Ice",
+    "I will not whittle hall passes out of soap, Season 6, Homer Badman"
 
 ];
 
@@ -106,7 +111,7 @@ var GAG_LIST = [
 
 var AlexaSkill = require('./AlexaSkill');
 
-var APP_ID = "amzn1.echo-sdk-ams.app.e053577f-1814-41e8-8ae1-30218edeb972"; //replace with 'amzn1.echo-sdk-ams.app.[your-unique-value-here]';
+var APP_ID = ""; //replace with 'amzn1.echo-sdk-ams.app.[your-unique-value-here]';
 
 /**
  * Chalkboard is a child of AlexaSkill.
