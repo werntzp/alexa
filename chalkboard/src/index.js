@@ -61,14 +61,52 @@ var GAG_LIST = [
     "Funny noises are not funny, Season 3, Black Widower",
     "I will not spin the turtle, Season 3, The Otto Show",
     "I will not snap bras, Season 3, Bart\'s Friend Falls in Love",
-    "I will not fake seizures, Season 3, Brother, Can You Spare Two Dimes?"
+    "I will not fake seizures, Season 3, Brother, Can You Spare Two Dimes?",
+    "This punishment is not boring and pointless, Season 4, Kamp Krusty",
+    "My name is not Dr. Death, Season 4, A Streetcar Named Marge",
+    "I will not defame New Orleans, Season 4, Homer the Heretic",
+    "I will not prescribe medication, Season 4, Lisa the Beauty Queen",
+    "I will not bury the new kid, Season 4, Itchy and Scratchy the Movie",
+    "I will not teach others to fly, Season 4, Marge Gets a Job",
+    "I will not bring sheep to class, Season 4, New Kid on the Block",
+    "A burp is not an answer, Season 4, Mr. Plow",
+    "Teacher is not a leper, Season 4, Lisa\'s First Word",
+    "Coffee is not for kids, Season 4, Homer\'s Triple Bypass",
+    "I will not eat things for money, Season 4, Marge vs. the Monorail",
+    "I will not yell She\'s Dead during roll call, Season 4, Selma\'s Choice",
+    "The principal\'s toupay is not a frisbee, Season 4, Brother from the Same Planet",
+    "I will not call the principal spud head, Season 4, I Love Lisa",
+    "Goldfish don\'t bounce, Season 4, Duffless",
+    "Mud is not one of the 4 food groups, Season 4, Last Exit to Springfield",
+    "No one is interested in my underpants, Season 4, So It's Come to This: A Simpsons Clip Show",
+    "I will not sell miracle cures, Season 4, The Front",
+    "I will return the seeing-eye dog, Season 4, Whacking Day",
+    "I do not have diplomatic immunity, Season 4, Marge in Chains",
+    "I will not charge admission to the bathroom, Season 4, Krusty Gets Cancelled",
+    "I will never win an Emmy, Season 5, Homer\'s Barbershop Quartet",
+    "The cafeteria deep fryer is not a toy, Season 5, Cape Fear",
+    "All work and no play makes Bart a dull boy, Season 5, The Last Temptation of Homer",
+    "I will not say Springfield just to get applause, Season 5, Springfield (Or, How I Learned to Stop Worrying and Love Legalized Gambling)",
+    "I am not authorized to fire substitute teachers, Season 5, Homer the Vigilante",
+    "My homework was not stolen by a one-armed man, Season 5, Bart Gets Famous",
+    "I will not go near the kindergarten turtle, Season 5, Homer and Apu",
+    "I am not delightfully saucy, Season 5, Homer Loves Flanders",
+    "Organ transplants are best left to the professionals, Season 5, Bart Gets an Elephant",
+    "The Pledge of Allegiance does not end with Hail Satan, Season 5, Burn\'s Heir",
+    "I will not celebrate meaningless milestones, Season 5, Sweet Seymour Skinner\'s Badass Song",
+    "There are plenty of businesses like show business, Season 5, The Boy Who Knew Too Much",
+    "I will not re-transmit without the express permission of Major League Baseball, Season 5, Lady Bouvier\'s Lover",
+    "Five days is not too long to wait for a gun, Season 5, Secrets of a Successful Marriage",
+    "Beans are neither a fruit nor musical, Season 6, Bart of Darkness",
+    "No one is interested in my underpants , Season 6, Lisa\'s Rival"
+
 ];
 
 'use strict';
 
 var AlexaSkill = require('./AlexaSkill');
 
-var APP_ID = ""; //replace with 'amzn1.echo-sdk-ams.app.[your-unique-value-here]';
+var APP_ID = "amzn1.echo-sdk-ams.app.e053577f-1814-41e8-8ae1-30218edeb972"; //replace with 'amzn1.echo-sdk-ams.app.[your-unique-value-here]';
 
 /**
  * Chalkboard is a child of AlexaSkill.
