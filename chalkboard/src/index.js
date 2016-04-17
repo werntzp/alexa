@@ -183,7 +183,35 @@ var GAG_LIST = [
     "I will stop phoning it in, Season 11, Faith Off",
     "Class clown is not a paid position, Season 11, The Mansion Family",
     "Substitute teachers are not scabs, Season 11, Saddlesore Galactica"
-    
+    "My suspension was not mutual, Season 11, Alone Again, Natura-Diddily",
+    "A belch is not an oral report, Season 11, Missionary Impossible",
+    "Dodgeball stops at the gym door, Season 11, Pygmoelian",
+    "Non-flammable is not a challenge, Season 11, Bart to the Future",
+    "I was not touched there by an angel, Season 11, Days of Wine and Dough says",
+    "I am not here on a fartball scholarship, Season 11, Kill the Alligator and Run",
+    "I will not dance on anyone\'s grave, Season 11, Last Tap Dance in Springfield",
+    "I cannot hire a substitute student, Season 11, It\'s a Mad, Mad, Mad, Mad Marge",
+    "I will not obey the voices in my head, Season 11, Beyond the Laughter",
+    "I will not plant subliminal messagore, Season 12, A Tale of Two Springfields",
+    "I will not surprise the incontinent, Season 12, Insane Clown Poppy",
+    "I am not the acting president, Season 12, Lisa the Tree Hugger",
+    "I was not the sixth Beatle, Season 12, Homer vs. Dignity",
+    "I will only provide a urine sample when asked, Season 12, The Computer Wore Menance Shoes",
+    "The nurse is not dealing, Season 12, The Great Money Caper",
+    "Science class should not end in tragedy, Season 12, Skinner\'s Sense of Snow",
+    "Network TV is not dead, Season 12, H O M R",
+    "I will not let the dogs out, Season 12, Pokey Mom",
+    "I will not hide the teacher's medication, Season 12, Worst Episode Ever",
+    "I will not publish the principal\'s credit report, Season 12, Tennis the Menace",
+    "The hamster did not have a full life, Season 12, Day of the Jackanapes",
+    "I will not buy a presidential pardon, Season 12, New Kids on the Blecch",
+    "Temptation Island was not a sleazy piece of crap, Season 12, Hungry, Hungry Homer",
+    "I will not scare the vice president, Season 12, Bye Bye Nerds",
+    "I will not flush evidence, Season 12, Simpson Safari",
+    "Fire is not the cleanser, Season 12, Trilogy of Error",
+    "Genetics is not an excuse, Season 12, I\'m Goin\' to Praiseland",
+    "Today is not Mothra\'s Day, Season 12, Children of a Lesser Clod",
+    "I should not be twenty-one by now, Season 12, Simpsons Tall Tales"
 
 ];
 
