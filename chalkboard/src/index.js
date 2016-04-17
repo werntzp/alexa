@@ -149,7 +149,29 @@ var GAG_LIST = [
     "I will not demand what I'm worth, Season 9, The Trouble with Trillions",
     "I will not mess with the opening credits, Season 9, Trash of the Titans",
     "I am not the new Dalai Lama, Season 9, Lost Our Lisa",
-    "I was not the inspiration for Kramer, Season 9, Natural Born Kissers"
+    "I was not the inspiration for Kramer, Season 9, Natural Born Kissers",
+    "I will not file frivolous lawsuits, Season 10, The Wizard of Evergreen Terrace",
+    "The Simpsons Halloween Special Nine, Season 10, Treehouse of Horror Nine",
+    "butt dot com is not my e-mail address, Season 10, When You Dish Upon a Star",
+    "No one cares what my definition of is is, Season 10, Dough in in the Wind",
+    "I will not scream for ice cream, Season 10, Lisa Gets an A",
+    "I am not a licensed hairstylist, Season 10, Homer Simpson in Kidney Trouble",
+    "The President did it is not an excuse, Season 10, Mayored to the Mob",
+    "My mom is not dating Jerry Seinfeld, Season 10, Viva Ned Flanders",
+    "Sherri does not got back, Season 10, Wild Barts Can\'t Be Broken",
+    "I will not do the dirty bird, Season 10, Sunday, Cruddy Sunday",
+    "No one cares about my sciatica, Season 10, Homer to the Max",
+    "Hillbillies are people too, Season 10, I\'m with Cupid",
+    "Grammar is not a time of waste, Season 10, Marge Simpson in Screaming Yellow Honkers",
+    "I do not have diplomatic immunity, Season 10, Make Room for Lisa",
+    "It does not suck to be you, Season 10, Maximum Homerdrive",
+    "I cannot absolve sins, Season 10, Simpsons Bible Stories",
+    "A trained ape could not teach gym, Season 10, Mom and Pop Art",
+    "Loose teeth don't need my help, Season 10, The Old Man and the C Student",
+    "I have neither been there nor done that, Season 10, Monty Can\'t Buy Me Love",
+    "No one wants to hear from my armpits, Season 10, They Saved Lisa\'s Brain",
+    "I\'m so very tired, Season 10, Thirty Minutes Over Tokyo"
+    
 
 ];
 
