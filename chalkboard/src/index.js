@@ -211,7 +211,29 @@ var GAG_LIST = [
     "Fire is not the cleanser, Season 12, Trilogy of Error",
     "Genetics is not an excuse, Season 12, I\'m Goin\' to Praiseland",
     "Today is not Mothra\'s Day, Season 12, Children of a Lesser Clod",
-    "I should not be twenty-one by now, Season 12, Simpsons Tall Tales"
+    "I should not be twenty-one by now, Season 12, Simpsons Tall Tales",
+    "Nobody reads these anymore, Season 12, The Parent Rap",
+    "A burp in a jar is not a science project, Season 13, Homer the Moe",
+    "Fun does not have a size, Season 13, A Hunka Hunka Burns in Love",
+    "I am not Charlie Brown on acid, Season 13, The Blunder Years",
+    "I do not have a cereal named after me, Season 13, She of Little Faith",
+    "I will not bite the hand that feeds me Butterfingers, Season 13, Half Decent Proposal",
+    "The Giving Tree is not a chump, Season 13, The Bart Wants What It Wants",
+    "Making Milhouse cry is not a science project, Season 13, The Lastest Gun in the West",
+    "Vampire is not a career choice, Season 13, Tales from the Public Domain",
+    "I will never lie about being cancelled again, Season 13, The Sweetest Apu",
+    "Fish do not like coffee, Season 14, Bart vs. Lisa vs. the Third Grade",
+    "Milhouse did not test cootie positive, Season 14, Helter Shelter",
+    "This school does not need a regime change, Season 14, The Strong Arms of the Ma",
+    "SpongeBob is not a contraceptive, Season 14, Pray Anything",
+    "I will not, Season 14, Barting Over",
+    "My pen is not a booger launcher, Season 14, Old Yeller-Belly",
+    "Sandwiches should not contain sand, Season 14, The Bart of War",
+    "Over forty & single is not funny, Season 15, Today, I Am a Clown",
+    "I will not speculate on how hot my teacher used to be, Season 15, The Ziff Who Came to Dinner",
+    "Poking a dead raccoon is not research, Season 16, She Used to Be My Girl",
+    "Beer in a milk carton is not milk, Season 16, On a Clear Day I Can\'t See My Sister",
+    "A booger is not a bookmark, Season 16, Home Away from Homer"
 
 ];
 
