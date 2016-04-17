@@ -157,7 +157,7 @@ var GAG_LIST = [
 
 var AlexaSkill = require('./AlexaSkill');
 
-var APP_ID = "amzn1.echo-sdk-ams.app.e053577f-1814-41e8-8ae1-30218edeb972"; //replace with 'amzn1.echo-sdk-ams.app.[your-unique-value-here]';
+var APP_ID = ""; //replace with 'amzn1.echo-sdk-ams.app.[your-unique-value-here]';
 
 /**
  * Chalkboard is a child of AlexaSkill.
