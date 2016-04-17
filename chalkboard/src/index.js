@@ -103,7 +103,53 @@ var GAG_LIST = [
     "I am not the reincarnation of Sammy Davis Jr., Season 6, Itchy and Scratchy Land",
     "I will not send lard through the mail, Season 6, Bart\'s Girlfriend",
     "I will not dissect things unless instructed, Season 6, Lisa on the Ice",
-    "I will not whittle hall passes out of soap, Season 6, Homer Badman"
+    "I will not whittle hall passes out of soap, Season 6, Homer Badman",
+    "My homework was not stolen by a one-armed man, Season 6, Grampa vs. Sexual Inadequacy",
+    "Ralph won't morph if you squeeze him hard enough, Season 6, Fear of Flying",
+    "Adding just kidding doesn't make it okay to insult the principal, Season 6, Homer the Great",
+    "Bagman is not a legitimate career choice, Season 6, And Maggie Makes Three",
+    "Cursive writing does not mean what I think it does, Season 6, Bart\'s Comet",
+    "Next time it could be me on the scaffolding, Season 6, Homie the Clown",
+    "I will not hang donuts on my person, Season 6, Bart vs. Australia",
+    "I will remember to take my medication, Season 6, Homer vs. Patty and Selma",
+    "I will not strut around like I own the place, Season 6, Lisa\'s Wedding",
+    "The Good Humor man can only be pushed so far, Season 6, Two Dozen and One Greyhounds",
+    "I do not have power of attorney over first graders, Season 6, The PTA Disbands",
+    "Nerve gas is not a toy, Season 6, \'Round Springfield",
+    "I will not mock Mrs. Dumbface, Season 6, The Springfield Connection",
+    "The First Amendment does not cover burping, Season 6, The Lemon of Troy",
+    "This is not a clue... or is it?, Season 6, Who Shot Mr. Burns Part 1",
+    "I will not complain about the solution when I hear it, Season 7, Who Shot Mr. Burns Part 2",
+    "Bewitched does not promote Satanism, Season 7, Radioactive Man",
+    "No one wants to hear from my armpits, Season 7, Home Sweet Homediddly-Dum-Doodily",
+    "I am not a lean mean spitting machine, Season 7, Bart Sells His Soul",
+    "The boys\' room is not a water park, Season 7, Lisa the Vegetarian",
+    "Indian burns are not our cultural heritage, Season 7, King Size Homer",
+    "Wedgies are unhealthy for children and other living things, Season 7, Sideshow Bob\'s Last Gleaming",
+    "I will only do this once a year, Season 7, The Simpsons 138th Episode Spectacular",
+    "I will stop talking about the twelve inch pianist, Season 7, Marge Be Not Proud",
+    "I am not certified to remove asbestos, Season 7, Team Homer",
+    "I did not learn everything I need to know from kindergarten, Season 8, You Only Move Twice",
+    "I  am not my long-lost twin, Season 8, The Homer They Fall",
+    "The truth is not out there, Season 8, The Springfield Files",
+    "I am not licensed to do anything, Season 8, The Twisted World of Marge Simpson",
+    "I will not hide the teacher's Prozac, Season 8, Simpsoncalifragilisticexpialadohcious",
+    "A fire drill does not demand a fire, Season 8, The Canine Mutiny",
+    "I no longer want my MTV, Season 9, Lisa\'s Sax",
+    "Everyone is tired of that Richard Gere story., Season 9, The Cartridge Family",
+    "I did not invent Irish dancing, Season 9, Bart Star",
+    "I will not tease Fatty, Season 9, Lisa the Skeptic",
+    "There was no Roman god named Fartacus, Season 9, Reality Bites",
+    "Rudolph the Red-Nosed Reindeer\'s red nose is not alcohol-related, Season 9, Miracle on Evergreen Terrace",
+    "Shooting paintballs is not an art form, Season 9, The Joy of Sect",
+    "Pain is not the cleanser, Season 9, The Last Temptation of Krust",
+    "Silly string is not a nasal spray, Season 9, Dumbbell Indemnity",
+    "I was told not to do this, Season 9, This Little Wiggy",
+    "My butt does not deserve a website, Season 9, Simpson Tide",
+    "I will not demand what I'm worth, Season 9, The Trouble with Trillions",
+    "I will not mess with the opening credits, Season 9, Trash of the Titans",
+    "I am not the new Dalai Lama, Season 9, Lost Our Lisa",
+    "I was not the inspiration for Kramer, Season 9, Natural Born Kissers"
 
 ];
 
@@ -111,7 +157,7 @@ var GAG_LIST = [
 
 var AlexaSkill = require('./AlexaSkill');
 
-var APP_ID = ""; //replace with 'amzn1.echo-sdk-ams.app.[your-unique-value-here]';
+var APP_ID = "amzn1.echo-sdk-ams.app.e053577f-1814-41e8-8ae1-30218edeb972"; //replace with 'amzn1.echo-sdk-ams.app.[your-unique-value-here]';
 
 /**
  * Chalkboard is a child of AlexaSkill.
