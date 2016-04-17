@@ -246,7 +246,31 @@ var GAG_LIST = [
     "Frankincense is not a monster, Season 18, Kill Gil VOlumes One and Two",
     "Global Warming did not eat my homework, Season 18, Homerazzi",
     "I will not look up how much teacher makes, Season 18, Crook and Ladder",
-    "Pearls are not oyster barf, Season 18, Stop or my Dog Will Shoot!"
+    "Pearls are not oyster barf, Season 18, Stop or my Dog Will Shoot!",
+    "I will not wait 20 years to make another movie, Season 19, He Loves to Fly and He Doughs",
+    "The Wall Street Journal is better than ever, Season 19, The Homer of Seville",
+    "I am not a FDIC-insured bank, Season 19, I Don't Wanna Know Why the Caged Bird Sings",
+    "There is no such thing as an iPoddy, Season 19, Little Orphan Millie",
+    "The Pilgrims were not illegal aliens, Season 19, Husbands and Knives",
+    "The capital of Montana is not Hannah, Season 19, Eternal Moonshine of the Simpson Mind",
+    "Teacher did not pay too much for her condo, Season 19, E. Pluribus Wiggum",
+    "The art teacher is fat, not pregnant, Season 19, The Debarted",
+    "A person's a person, no matter how Ralph, Season 19, Apocalypse Cow",
+    "This punishment is not medieval, Season 19, Mona Leaves ah",
+    "Teachers diet is working, Season 20, Lost Verizon",
+    "There is no such month as Rocktober, Season 20, Double, Double, Boy in Trouble",
+    "I did not see my teacher siphoning gas, Season 20, Dangerous Curves",
+    "Prosperity is just around the corner, Season 20, Mypods and Boomsticks",
+    "Jesus is not mad his birthday is on Christmas, Season 20, The Burns and the Bees",
+    "I Will Not use Permanet ink on the Chalkboard, Season 20, Lisa the Drama Queen",
+    "HDTV is worth every cent, Season 20, Take My Life Please",
+    "March Madness is not an excuse for missing school, Season 20, How the Test was Won",
+    "I will not have fun with educational toys, Season 20, No Loan Again, Naturally",
+    "Four leaf clovers are not mutant freaks, Season 20, In the Name of the Grandfather",
+    "My piggy bank is not entitled to TARP funds, Season 20, Wedding for Disaster",
+    "I will not mock teacher's outdated cell phone, Season 20, The Good, the Sad and the Drugly",
+    "I will not put hot sauce in the CPR dummy, Season 20, Father Knows Worst",
+    "It\'s Facebook, not Assbook, Season 20, Coming to Homerica"
 ];
 
 'use strict';
