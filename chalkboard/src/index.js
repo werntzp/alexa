@@ -233,8 +233,20 @@ var GAG_LIST = [
     "I will not speculate on how hot my teacher used to be, Season 15, The Ziff Who Came to Dinner",
     "Poking a dead raccoon is not research, Season 16, She Used to Be My Girl",
     "Beer in a milk carton is not milk, Season 16, On a Clear Day I Can\'t See My Sister",
-    "A booger is not a bookmark, Season 16, Home Away from Homer"
-
+    "A booger is not a bookmark, Season 16, Home Away from Homer",
+    "Does any kid still do this anymore?, Season 17, Bonfire of the Manatees",
+    "I am not smarter than the President, Season 17, Homer\'s Paternity Coot",
+    "Teacher was not dumped—it was mutual, Season 17, We\'re on the Road to dough where",
+    "I will not laminate dog doo, Season 17, Homer Simpson, This Is Your Wife",
+    "I will not flip the classroom upside down, Season 17, Million Dollar Abie",
+    "I will not leak the plot of the movie, Season 17, Regarding Margie",
+    "Je ne parle pas français, Season 17, The Monkey Suit",
+    "Have a great summer, everyone, Season 17, Marge and Homer Turn a Couple Play",
+    "We are not all naked under our clothes, Season 18, G I Dough",
+    "Frankincense is not a monster, Season 18, Kill Gil VOlumes One and Two",
+    "Global Warming did not eat my homework, Season 18, Homerazzi",
+    "I will not look up how much teacher makes, Season 18, Crook and Ladder",
+    "Pearls are not oyster barf, Season 18, Stop or my Dog Will Shoot!"
 ];
 
 'use strict';
