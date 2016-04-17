@@ -170,7 +170,19 @@ var GAG_LIST = [
     "Loose teeth don't need my help, Season 10, The Old Man and the C Student",
     "I have neither been there nor done that, Season 10, Monty Can\'t Buy Me Love",
     "No one wants to hear from my armpits, Season 10, They Saved Lisa\'s Brain",
-    "I\'m so very tired, Season 10, Thirty Minutes Over Tokyo"
+    "I\'m so very tired, Season 10, Thirty Minutes Over Tokyo",
+    "Fridays are not pants optional, Season 11, Beyond Blunderdome",
+    "Pork is not a verb, Season 11, Brother\'s Little Helper",
+    "I am not the last Don, Season 11, Guess Who's Coming to Criticize Dinner?",
+    "I did not win the Nobel Fart Prize, Season 11, E I E I Dough",
+    "I won\'t not use no double negatives, Season 11, Hello Gutter, Hello Fadder",
+    "Indian burns are not our cultural heritage, Season 11, Eight Misbehavin",
+    "I can\'t see dead people, Season 11, Take My Wife Sleaze",
+    "I will not sell my kidney on eBay, Season 11, Grift of the Magi",
+    "I will not create art from dung, Season 11, Little Big Mom",
+    "I will stop phoning it in, Season 11, Faith Off",
+    "Class clown is not a paid position, Season 11, The Mansion Family",
+    "Substitute teachers are not scabs, Season 11, Saddlesore Galactica"
     
 
 ];
