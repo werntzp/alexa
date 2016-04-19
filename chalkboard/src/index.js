@@ -319,7 +319,27 @@ var GAG_LIST = [
     "I will not tweet as the principal\'s toilet, Season 24, Hardly Kirk-ing",
     "I\'m sorry I broke the blackboard, Season 24, Black-eyed Please",
     "Jesus\'s last words were not T G I F, Season 24, Dark Knight Court",
-    "This school is not falling apart, Season 24, The Fabulous Faker Boy"
+    "This school is not falling apart, Season 24, The Fabulous Faker Boy",
+    "25 years and they can't come up with a new punishment, Season 25, Homerland",
+    "All Work and No Play Makes Jack A Dull Boy, Season 25, Treehouse of Horror XXIV",
+    "We\'ll really miss you, Mrs. K., Season 25, Four Regrettings and a Funeral",
+    "My school schedule does NOT include a bye week, Season 50, Yolo",
+    "Rocktober is not followed by Blowvember, Season 25, Labor Pains",
+    "I will stop asking when Santa goes to the bathroom, Season 25, Yellow Subterfuge",
+    "I will not call my teacher Prancer and Vixen, Season 25, White Christmas Views",
+    "Judas Priest is not death metal, Season 25, Married to the Blob",
+    "My dad\'s already drunk for St. Patrick\'s, Season 25, The Winter of His Content",
+    "April Showers do not bring Matt Lauers, Season 25, What to Expect When Bart\'s Expecting",
+    "Spoiler Alert, Unfortunately, my dad doesn\'t die, Season 26, Clown in the Dumps",
+    "Reindeer meat does not taste like chicken, Season 26, I won\'t be Home for Christmas",
+    "Snowmen don\'t have carrot penises, Season 26, Bart\'s New Friend",
+    "Pixel art is not real art, Season 26, My Fare Lady",
+    "I will not pay my sister to do my punishment, Season 26, The Kids are All Fight",
+    "I will not fight the future, Season 26, Mathlete\'s Feat",
+    "Hershey Kisses do not drop from Cupid\'s butt, Season 27, Love Is in the Air",
+    "If Villanova doesn\'t win we lose everything, Season 27, The Burns Cage",
+    "Never lose a bet with Bart Simpson, Season 27, How Lisa Got Her Marge Back",
+    "I will not illegally download this movie, The Simpsons Movie"
 ];
 
 'use strict';
