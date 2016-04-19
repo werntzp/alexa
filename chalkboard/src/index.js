@@ -284,7 +284,31 @@ var GAG_LIST = [
     "South Park, we\'d stand beside you if we weren\'t so scared, Season 21, The Squirt and the Whale",
     "Eating my vegetables is not a Mother's Day present, Season 21, Moe Letter Blues",
     "Batman Is Not Nothing Without His Utility Belt, Season 21, The Bob Next Door",
-    "End of Lost It was all the dog\'s dream. Watch Us, Season 21, Judge Me Tender"
+    "End of Lost It was all the dog\'s dream. Watch Us, Season 21, Judge Me Tender",
+    "When I slept in class, it was not to help Leo DiCaprio, Season 22, Elementary School Musical",
+    "I did not see Teacher applying for welfare, Season 22, Loan a Lisa",
+    "I must not write all over the wall, Season 22, Money Bart",
+    "A Charlie Brown Thanksgiving is as good as A Charlie Brown Christmas, Season 22, How Munched Is That Birdie in the Window?",
+    "Candy canes are not elf bones, Season 22, Donnie Fatso",
+    "January is not Bart History Month, Season 22, Moms I\'d Like to Forget",
+    "Prince is not the son of Martin Luther King, Season 22, Homer the Father",
+    "I will not make fun of Cupid\'s dink, Season 22, The Blue and the Gray",
+    "I\'m not here on a Spitball scholar, Season 22, The Scorpion\'s Tale",
+    "Daylight Savings Is Not a Failed Bank, Season 22, A Midsummer\'s Nice Dream",
+    "I will not ridicule teacher\'s Final Four bracket, Season 22, Love is a Many Strangled Thing",
+    "I do not deserve a Mother\'s Day gift for being one badass mother, Season 22, Homer Scissorhands",
+    "Guinea Pigs Should Not Be Used As Guinea Pigs, Season 22, 500 Keys",
+    "It\'s not too early to speculate about the 2016 election, Season 23, Bart Stops to Smell the Roosevelts",
+    "It\'s November 6th. How come we're not airing a Halloween show?, Season 23, Replaceable You",
+    "Caucus is not a dirty word, Season 23, The Ten Percent Solution",
+    "Cafeteria trays are not toboggans, Season 23, Holidays of Future Passed",
+    "Tintin did not suck suck, Season 23, Politically Inept, with Homer Simpson",
+    "We do need no education, Season 23, The Dough shell Network",
+    "There\'s no proven link between raisins and boogers, Season 23, Moe Goes from Rags to Riches",
+    "I will not replace a candy heart with a frog\'s heart, Season 23, The Daughter Also Rises",
+    "Bart\'s earned a day off, Season 23, At Long Last Leave",
+    "The true location of Springfield is in any state but yours, Season 23, Beware My Cheating Bart",
+    "Call your mother during the commercials, Season 23, Ned \'N Edna\'s Blend"
 ];
 
 'use strict';
