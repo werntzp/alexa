@@ -270,7 +270,21 @@ var GAG_LIST = [
     "My piggy bank is not entitled to TARP funds, Season 20, Wedding for Disaster",
     "I will not mock teacher's outdated cell phone, Season 20, The Good, the Sad and the Drugly",
     "I will not put hot sauce in the CPR dummy, Season 20, Father Knows Worst",
-    "It\'s Facebook, not Assbook, Season 20, Coming to Homerica"
+    "It\'s Facebook, not Assbook, Season 20, Coming to Homerica",
+    "The class hamster isn't just sleeping, Season 21, Homer the Whopper",
+    "Chalkboarding is not torture, Season 21, Bart Gets a Z",
+    "I am not allergic to long division, Season 21, The Great Wife Hope",
+    "I do not have the hots for my mom, Season 21, The Devil Wears Nada",
+    "Halloween doesn\'t kick Thanksgiving\'s ass, Season 21, Pranks and Greens",
+    "Teachers\' unions are not ruining this country, Season 21, Rednecks and Broomsticks",
+    "The world may end in 2012, but this show won\'t, Season 21, Once Upon a Time in Springfield",
+    "WWII could not beat up WWI, Season 21, Stealing First Base",
+    "Hot dogs are not bookmarks, Season 21, American History X-cellent",
+    "This counts as gym and art class, Season 21, Chief of Hearts",
+    "South Park, we\'d stand beside you if we weren\'t so scared, Season 21, The Squirt and the Whale",
+    "Eating my vegetables is not a Mother's Day present, Season 21, Moe Letter Blues",
+    "Batman Is Not Nothing Without His Utility Belt, Season 21, The Bob Next Door",
+    "End of Lost It was all the dog\'s dream. Watch Us, Season 21, Judge Me Tender"
 ];
 
 'use strict';
