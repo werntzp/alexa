@@ -308,7 +308,18 @@ var GAG_LIST = [
     "I will not replace a candy heart with a frog\'s heart, Season 23, The Daughter Also Rises",
     "Bart\'s earned a day off, Season 23, At Long Last Leave",
     "The true location of Springfield is in any state but yours, Season 23, Beware My Cheating Bart",
-    "Call your mother during the commercials, Season 23, Ned \'N Edna\'s Blend"
+    "Call your mother during the commercials, Season 23, Ned \'N Edna\'s Blend",
+    "I will not wear white after Labor Day, Season 24, Moonshine River",
+    "I will not concede the election till Karl Rove gives me permission, Season 24, Gone Abie Gone",
+    "I want to secede but don't know which state I\'m in, Season 24, Penny-Wiseguys",
+    "20 more shoplifting days till Christmas, Season 24, A Tree Grows in Springfield",
+    "The teacher did not get fat during the holidays, Season 24, Homer Goes to Prep School",
+    "I will obey Oscar campaign rules from now on, Season 24, A Test Before Trying",
+    "I wasn\'t nominated for Best Spoken Swear Word, Season 24, Love is a Many Splintered Thing",
+    "I will not tweet as the principal\'s toilet, Season 24, Hardly Kirk-ing",
+    "I\'m sorry I broke the blackboard, Season 24, Black-eyed Please",
+    "Jesus\'s last words were not T G I F, Season 24, Dark Knight Court",
+    "This school is not falling apart, Season 24, The Fabulous Faker Boy"
 ];
 
 'use strict';
