@@ -1,6 +1,8 @@
 GagIntent for a gag
 GagIntent get a gag
+GagIntent get me a gag
 
 HelpIntent help
 HelpIntent help me
+HelpIntent get help
 HelpIntent get help
