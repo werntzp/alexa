@@ -364,7 +364,7 @@ Chalkboard.prototype.eventHandlers.onLaunch = function (launchRequest, session, 
     // If the user either does not reply to the welcome message or says something that is not
     // understood, they will be prompted again with this text.
     var repromptText = "For instructions on what you can say, please say help me.";
-    response.ask(speechOutput, repromptText);
+    response.ask(speechOutput, repromptText, true);
 };
 
 Chalkboard.prototype.intentHandlers = {
@@ -376,12 +376,12 @@ Chalkboard.prototype.intentHandlers = {
         speech: speechOutput,
         type: AlexaSkill.speechOutputType.PLAIN_TEXT
       };
-      response.ask(speechOutput);
+      response.ask(speechOutput, true);
     },
     "HelpIntent": function (intent, session, response) {
         var speechOutput = "Welcome to the Simpsons Chalkboard gag skill. Say get me a gag to hear a random chalkboard gag.";
         var repromptText = "What can I help you with?";
-        response.ask(speechOutput, repromptText);
+        response.ask(speechOutput, repromptText, true);
     }
 };
 
