@@ -6,7 +6,7 @@
       "slots": []
     },
     {
-      "intent": "AMAZON.HelpIntent",
+      "intent": "HelpIntent",
       "slots": []
     }
   ]
