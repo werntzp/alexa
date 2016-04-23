@@ -1,4 +1,3 @@
-
 {
   "intents": [
     {
@@ -7,6 +6,14 @@
     },
     {
       "intent": "HelpIntent",
+      "slots": []
+    },
+    {
+      "intent": "AMAZON.StopIntent",
+      "slots": []
+    },    
+    {
+      "intent": "AMAZON.CancelIntent",
       "slots": []
     }
   ]
