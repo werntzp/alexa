@@ -376,12 +376,20 @@ Chalkboard.prototype.intentHandlers = {
         speech: speechOutput,
         type: AlexaSkill.speechOutputType.PLAIN_TEXT
       };
-      response.ask(speechOutput, "", true);
+      response.tell(speechOutput, "", true);
     },
     "HelpIntent": function (intent, session, response) {
         var speechOutput = "Welcome to the Chalkboard Gags skill. Say get me a gag to hear a random chalkboard gag from the Simpsons.";
         var repromptText = "What can I help you with?";
         response.ask(speechOutput, repromptText, true);
+    },
+    "AMAZON.StopIntent": function (intent, session, response) {
+        var speechOutput = "duh oh. Goodbye.";
+        response.tell(speechOutput);
+    },
+    "AMAZON.CancelIntent": function (intent, session, response) {
+        var speechOutput = "duh oh. Goodbye.";
+        response.tell(speechOutput);
     }
 };
 
