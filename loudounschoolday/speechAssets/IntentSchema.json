@@ -14,10 +14,22 @@
         "samples": []
       },
       {
-        "name": "SchoolDayIntent",
+        "name": "TodayIntent",
         "samples": [
-          "about today",
-          "about tomorrow"
+          "what day is today",
+          "is today an A day",
+          "is today a B day",
+          "what is today"
+        ],
+        "slots": []
+      },
+      {
+        "name": "TomorrowIntent",
+        "samples": [
+          "what day is tomorrow",
+          "what is tomorrow",
+          "is tomorrow an A day",
+          "is tomorrow a B day"
         ],
         "slots": []
       }
