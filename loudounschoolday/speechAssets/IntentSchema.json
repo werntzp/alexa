@@ -1,0 +1,27 @@
+{
+  "languageModel": {
+    "intents": [
+      {
+        "name": "AMAZON.CancelIntent",
+        "samples": []
+      },
+      {
+        "name": "AMAZON.HelpIntent",
+        "samples": []
+      },
+      {
+        "name": "AMAZON.StopIntent",
+        "samples": []
+      },
+      {
+        "name": "SchoolDayIntent",
+        "samples": [
+          "about today",
+          "about tomorrow"
+        ],
+        "slots": []
+      }
+    ],
+    "invocationName": "loudoun school day"
+  }
+}
