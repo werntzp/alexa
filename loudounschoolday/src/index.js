@@ -30,10 +30,19 @@ SchoolDay.prototype.eventHandlers.onLaunch = function (launchRequest, session, r
     response.ask(speechOutput, "", true);
 };
 
-Chalkboard.prototype.intentHandlers = {
-    "SchoolDayIntent": function (intent, session, response) {
-      // see if  today or tomorrow, get the date, and check the array for whether A, B or no school
-      var speechOutput = "Today is an A day";
+SchoolDay.prototype.intentHandlers = {
+    "TodayIntent": function (intent, session, response) {
+      // get today's date, and check the array for whether A, B or no school
+      var speechOutput = "Today, January 14th, is an A day";
+      var speechOutput = {
+        speech: speechOutput,
+        type: AlexaSkill.speechOutputType.PLAIN_TEXT
+      };
+      response.tell(speechOutput, "", true);
+    },
+    "TomorrowIntent": function (intent, session, response) {
+      // get tomorrow's date, and check the array for whether A, B or no school
+      var speechOutput = "Tomorrow, January 15th, is a B day";
       var speechOutput = {
         speech: speechOutput,
         type: AlexaSkill.speechOutputType.PLAIN_TEXT
@@ -58,4 +67,3 @@ exports.handler = function (event, context) {
     var sd = new SchoolDay();
     sd.execute(event, context);
 };
-
